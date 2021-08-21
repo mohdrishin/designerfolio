@@ -1,5 +1,16 @@
-@mixin backgroundImage {
-    background: url(/images/cover-pic.jpg) no-repeat;
+@mixin personImage {
+    background: url(/images/axel-vazquez.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+}
+@mixin bgImage {
+    background: url(/images/white-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@mixin headerFont {
+    font-family: $main-font;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #262A53;
 }
