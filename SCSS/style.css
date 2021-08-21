@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.container-left {
+  height: 100vh;
+  width: 60%;
+  background-color: #000;
+}
+
+.container-right {
+  background: url(/images/cover-pic.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */
