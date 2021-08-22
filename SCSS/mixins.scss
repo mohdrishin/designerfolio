@@ -4,13 +4,25 @@
     background-position: center center;
 }
 @mixin bgImage {
-    background: url(/images/white-background.jpg) no-repeat;
+    background: url(/images/pexels-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+    opacity: 0.9;
 }
 @mixin headerFont {
     font-family: $main-font;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #262A53;
+    // color: #262A53;
+    background: radial-gradient(circle, rgba(255,160,160,1) 0%, rgba(38,42,83,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+@mixin helloButton{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid $btn-color;
+    background-color: $btn-color;
+    color: #fff;
 }

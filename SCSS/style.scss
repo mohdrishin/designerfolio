@@ -2,6 +2,7 @@
 // @import 'http://127.0.0.1:5500/SCSS/variables.scss' ;
 @import '../SCSS/mixins.scss' ;
 // @import 'http://127.0.0.1:5500/SCSS/mixins.scss' ;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +14,7 @@
     &-left {
         height: 100vh;
         width: 60%;
+        position: relative;
         @include bgImage;
         header{
             height: 100px;
@@ -31,9 +33,70 @@
                 li{
                     display: inline-block;
                     padding-right: 35px;
+                    cursor: pointer;
+                    &:hover {
+                        text-decoration: underline #4e6160 2px;
+                    }
                 }
             }
         }
+        section {
+            // background-color: aqua;
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            padding: 100px 200px 0px;
+            // padding-left: 200px;
+            justify-content: center;
+            // align-items: center;
+            h1{
+                font-family: $h1-font;
+                font-size: 4rem;
+                font-weight: 800;
+                color: $main-color;
+                margin-bottom: -10px;
+            }
+            p{
+                font-family: $main-font;
+                color: $sec-color;
+                font-size: 1.2rem;
+                max-width: 340px;
+                padding: 10px 0px;
+                line-height: 1.7rem;
+                letter-spacing: 1.6px;
+                span{
+                    font-weight: 700;
+                    font-family: $h1-font;
+                    color: $main-color;
+                }
+            }
+            .icon-set{
+                display: flex;
+                max-width: 280px;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+                cursor: pointer;
+                button{
+                    @include helloButton;
+                    font-size: 13px;
+                    cursor: pointer;
+                }
+                img{
+                    height: 22px;
+                    width: 22px;
+                }
+            }
+            
+        }
+        footer{
+            position: absolute;
+            bottom: 30px;
+            left: 280px;
+            color: $bg-color;
+            font-family: $main-font;
+        }    
     }
     &-right {
         @include personImage;

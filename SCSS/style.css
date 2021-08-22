@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +12,11 @@
 .container-left {
   height: 100vh;
   width: 60%;
-  background: url(/images/white-background.jpg) no-repeat;
+  position: relative;
+  background: url(/images/pexels-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  opacity: 0.9;
 }
 
 .container-left header {
@@ -34,12 +37,85 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #262A53;
+  background: radial-gradient(circle, #ffa0a0 0%, #262a53 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container-left header ul li {
   display: inline-block;
   padding-right: 35px;
+  cursor: pointer;
+}
+
+.container-left header ul li:hover {
+  text-decoration: underline #4e6160 2px;
+}
+
+.container-left section {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px 0px;
+  justify-content: center;
+}
+
+.container-left section h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #2d2d2d;
+  margin-bottom: -10px;
+}
+
+.container-left section p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #4b5d5d;
+  font-size: 1.2rem;
+  max-width: 340px;
+  padding: 10px 0px;
+  line-height: 1.7rem;
+  letter-spacing: 1.6px;
+}
+
+.container-left section p span {
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  color: #2d2d2d;
+}
+
+.container-left section .icon-set {
+  display: flex;
+  max-width: 280px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container-left section .icon-set button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #fe4646;
+  background-color: #fe4646;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.container-left section .icon-set img {
+  height: 22px;
+  width: 22px;
+}
+
+.container-left footer {
+  position: absolute;
+  bottom: 30px;
+  left: 280px;
+  color: #fffffe;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .container-right {
