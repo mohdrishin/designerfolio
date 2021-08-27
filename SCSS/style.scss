@@ -1,6 +1,7 @@
 @import '../SCSS/variables.scss' ;
 // @import 'http://127.0.0.1:5500/SCSS/variables.scss' ;
 @import '../SCSS/mixins.scss' ;
+@import '../SCSS/functions.scss' ;
 // @import 'http://127.0.0.1:5500/SCSS/mixins.scss' ;
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
@@ -53,7 +54,7 @@
                 justify-content: center;
                 // align-items: center;
                 h1{
-                    font-family: $h1-font;
+                    // font-family: $h1-font;
                     font-size: 4rem;
                     font-weight: 800;
                     color: $main-color;
@@ -69,7 +70,7 @@
                     letter-spacing: 1.6px;
                     span{
                         font-weight: 700;
-                        font-family: $h1-font;
+                        // font-family: $h1-font;
                         color: $main-color;
                     }
                 }
@@ -109,7 +110,21 @@
     }
     // Landing Profile Section Ends Here
 
-
+    // Work Section Starts Here
+    .works-container {
+        height: 100vh;
+        width: 100%;
+        background-color: $workbg-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            margin: 100px 0px;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+    }
 
 
 
