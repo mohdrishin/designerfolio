@@ -159,9 +159,58 @@ h6 {
 }
 
 .container .works-container h2 {
-  margin: 100px 0px;
+  margin: 40px 0px 30px;
   font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+.container .works-container .portfolio-container {
+  height: 580px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.container .works-container .portfolio-container .portfolio-one {
+  grid-area: 1 / 1 / 3 / 2;
+  background: url(/images/portfolio/art-5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .works-container .portfolio-container .portfolio-two {
+  grid-area: 1 / 2 / 2 / 3;
+  background: url(/images/portfolio/art-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .works-container .portfolio-container .portfolio-three {
+  grid-area: 1 / 3 / 2 / 5;
+  background: url(/images/portfolio/art-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .works-container .portfolio-container .portfolio-four {
+  grid-area: 2 / 2 / 3 / 4;
+  background: url(/images/portfolio/art-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .works-container .portfolio-container .portfolio-five {
+  grid-area: 2 / 4 / 3 / 5;
+  background: url(/images/portfolio/art-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

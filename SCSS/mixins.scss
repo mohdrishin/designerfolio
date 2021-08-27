@@ -26,3 +26,8 @@
     background-color: $btn-color;
     color: #fff;
 }
+@mixin portfolioBg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
