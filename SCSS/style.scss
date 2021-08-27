@@ -21,10 +21,10 @@
             @include bgImage;
             header{
                 height: 100px;
-                width:100%;
+                width: 100%;
                 // background-color: #FFE3E3;
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 align-items: center;
                 padding: 0px 40px;
                 img{
