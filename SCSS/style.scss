@@ -13,7 +13,7 @@
     display: flex;
     &-left {
         height: 100vh;
-        width: 60%;
+        width: 83%;
         position: relative;
         @include bgImage;
         header{
@@ -93,7 +93,8 @@
         footer{
             position: absolute;
             bottom: 30px;
-            left: 280px;
+            width: 100%;
+            text-align: center;
             color: $bg-color;
             font-family: $main-font;
         }    

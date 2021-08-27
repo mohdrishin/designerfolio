@@ -1,7 +1,7 @@
 @mixin personImage {
-    background: url(/images/axel-vazquez.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: url(/images/pascal-bernardon-e8t3SqTMNF0-unsplash.jpg) no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 @mixin bgImage {
     background: url(/images/pexels-bg.jpg) no-repeat;
