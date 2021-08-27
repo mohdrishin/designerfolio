@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-.container {
+.container .profile-container {
   display: flex;
 }
 
-.container-left {
+.container .profile-container .profile-left {
   height: 100vh;
   width: 83%;
   position: relative;
@@ -19,7 +19,7 @@
   opacity: 0.9;
 }
 
-.container-left header {
+.container .profile-container .profile-left header {
   height: 100px;
   width: 100%;
   display: flex;
@@ -28,11 +28,11 @@
   padding: 0px 40px;
 }
 
-.container-left header img {
+.container .profile-container .profile-left header img {
   height: 80px;
 }
 
-.container-left header ul {
+.container .profile-container .profile-left header ul {
   list-style-type: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
@@ -42,17 +42,17 @@
   -webkit-text-fill-color: transparent;
 }
 
-.container-left header ul li {
+.container .profile-container .profile-left header ul li {
   display: inline-block;
   padding-right: 35px;
   cursor: pointer;
 }
 
-.container-left header ul li:hover {
+.container .profile-container .profile-left header ul li:hover {
   text-decoration: underline #4e6160 2px;
 }
 
-.container-left section {
+.container .profile-container .profile-left section {
   width: 100%;
   height: max-content;
   display: flex;
@@ -61,7 +61,7 @@
   justify-content: center;
 }
 
-.container-left section h1 {
+.container .profile-container .profile-left section h1 {
   font-family: "Nunito", sans-serif;
   font-size: 4rem;
   font-weight: 800;
@@ -69,7 +69,7 @@
   margin-bottom: -10px;
 }
 
-.container-left section p {
+.container .profile-container .profile-left section p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #4b5d5d;
   font-size: 1.2rem;
@@ -79,13 +79,13 @@
   letter-spacing: 1.6px;
 }
 
-.container-left section p span {
+.container .profile-container .profile-left section p span {
   font-weight: 700;
   font-family: "Nunito", sans-serif;
   color: #2d2d2d;
 }
 
-.container-left section .icon-set {
+.container .profile-container .profile-left section .icon-set {
   display: flex;
   max-width: 280px;
   justify-content: space-between;
@@ -94,7 +94,7 @@
   cursor: pointer;
 }
 
-.container-left section .icon-set button {
+.container .profile-container .profile-left section .icon-set button {
   width: 120px;
   height: 40px;
   border-radius: 20px;
@@ -105,12 +105,12 @@
   cursor: pointer;
 }
 
-.container-left section .icon-set img {
+.container .profile-container .profile-left section .icon-set img {
   height: 22px;
   width: 22px;
 }
 
-.container-left footer {
+.container .profile-container .profile-left footer {
   position: absolute;
   bottom: 30px;
   width: 100%;
@@ -119,7 +119,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container-right {
+.container .profile-container .profile-right {
   background: url(/images/pascal-bernardon-e8t3SqTMNF0-unsplash.jpg) no-repeat;
   background-size: contain;
   background-position: right;
