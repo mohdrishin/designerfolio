@@ -91,7 +91,6 @@
                         width: 22px;
                     }
                 }
-                
             }    
         }
         .profile-right {
@@ -102,7 +101,7 @@
     }
     // Landing Profile Section Ends Here
 
-    // Work Section Starts Here
+    // Portfolio Section Starts Here
     .works-container {
         height: 100vh;
         width: 100%;
@@ -124,34 +123,59 @@
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(2, 1fr);
             grid-gap: 10px;
-            .portfolio-one{
+            div:nth-child(1){
                 grid-area: 1 / 1 / 3 / 2;
                 background: url(/images/portfolio/art-5.jpg);
                 @include portfolioBg;
             }
-            .portfolio-two{
+            div:nth-child(2){
                 grid-area: 1 / 2 / 2 / 3;
                 background: url(/images/portfolio/art-4.jpg);
                 @include portfolioBg;
             }
-            .portfolio-three{
+            div:nth-child(3){
                 grid-area: 1 / 3 / 2 / 5;
                 background: url(/images/portfolio/art-2.jpg);
                 @include portfolioBg;
             }
-            .portfolio-four{
+            div:nth-child(4){
                 grid-area: 2 / 2 / 3 / 4;
                 background: url(/images/portfolio/art-3.jpg);
                 @include portfolioBg;
             }
-            .portfolio-five{
+            div:nth-child(5){
                 grid-area: 2 / 4 / 3 / 5;
                 background: url(/images/portfolio/art-1.jpg);
                 @include portfolioBg;
             }
+            // .portfolio-one{
+            //     grid-area: 1 / 1 / 3 / 2;
+            //     background: url(/images/portfolio/art-5.jpg);
+            //     @include portfolioBg;
+            // }
+            // .portfolio-two{
+            //     grid-area: 1 / 2 / 2 / 3;
+            //     background: url(/images/portfolio/art-4.jpg);
+            //     @include portfolioBg;
+            // }
+            // .portfolio-three{
+            //     grid-area: 1 / 3 / 2 / 5;
+            //     background: url(/images/portfolio/art-2.jpg);
+            //     @include portfolioBg;
+            // }
+            // .portfolio-four{
+            //     grid-area: 2 / 2 / 3 / 4;
+            //     background: url(/images/portfolio/art-3.jpg);
+            //     @include portfolioBg;
+            // }
+            // .portfolio-five{
+            //     grid-area: 2 / 4 / 3 / 5;
+            //     background: url(/images/portfolio/art-1.jpg);
+            //     @include portfolioBg;
+            // }
         }
     }
-
+    // Portfolio Section Ends Here
 
 
 }
