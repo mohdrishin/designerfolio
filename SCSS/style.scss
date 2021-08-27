@@ -16,7 +16,7 @@
         display: flex;
         .profile-left {
             height: 100vh;
-            width: 83%;
+            width: 100%;
             position: relative;
             @include bgImage;
             header{
@@ -93,11 +93,11 @@
                 }
             }    
         }
-        .profile-right {
-            @include personImage;
-            height: 100vh;
-            width: 40%;
-        }
+        // .profile-right {
+        //     @include personImage;
+        //     height: 100vh;
+        //     width: 10%;
+        // }
     }
     // Landing Profile Section Ends Here
 
@@ -105,7 +105,7 @@
     .works-container {
         height: 100vh;
         width: 100%;
-        background-color: $workbg-color;
+        background-color: #2c2c2c;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -114,7 +114,7 @@
             font-size: 2rem;
             letter-spacing: 2px;
             font-weight: 600;
-            color: $main-color;
+            color: $workbg-color;
         }
         .portfolio-container{
             height: 580px;

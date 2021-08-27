@@ -6,7 +6,7 @@
 @mixin bgImage {
     background: url(/images/pexels-bg.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: 50% 57%;
     opacity: 0.9;
 }
 @mixin headerFont {
