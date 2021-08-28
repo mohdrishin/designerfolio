@@ -43,3 +43,59 @@
     display: flex;
     align-items: center;
 }
+
+
+// Animations for Skills
+
+@mixin skilloneAnim{
+    @keyframes skillone {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 90%;
+        }
+    }
+}
+@mixin skilltwoAnim{
+    @keyframes skilltwo {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 82%;
+        }
+    }
+}
+@mixin skillthreeAnim{
+    @keyframes skillthree {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 42%;
+        }
+    }
+}
+@mixin skillfourAnim{
+    @keyframes skillfour {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+}
+@mixin skillfiveAnim{
+    @keyframes skillfive {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 20%;
+        }
+    }
+}
+
+// Animations for Skills Ends Here

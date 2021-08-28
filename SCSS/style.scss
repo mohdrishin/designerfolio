@@ -156,6 +156,80 @@
     }
     // Portfolio Section Ends Here
 
+    // Skills Section Starts Here
+    .skills-container{
+        height: max-content;
+        width: 100%;
+        background-color: $workbg-color;
+        display: flex;
+        padding-bottom: 50px;
+        flex-direction: column;
+        h2{
+            margin: 60px auto;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            font-weight: 600;
+            color: $main-color;
+        }
+        .skills-wrapper{
+            height: max-content;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            margin: auto;
+            list-style: none;
+            li{
+                margin: 15px 0;
+                h3{
+                    margin-bottom: 10px;
+                }
+                .skill-bar{
+                    background: $sec-color;
+                    display: block;
+                    height: 8px;
+                    border: 1px solid $sec-color;
+                    border-radius: 3px;
+                    overflow: hidden;
+                    box-shadow: 0 0 8px #2187e7b3;
+                    span{
+                        height: 8px;
+                        float: left;
+                        background: $btn-color;
+                    }  
+                }
+                // Progress Animation 
+                .skill-one{
+                    width: 90%;
+                    animation: skillone 2s;
+                    @include skilloneAnim;
+                }
+                .skill-two{
+                    width: 82%;
+                    animation: skilltwo 2s;
+                    @include skilltwoAnim;
+                }
+                .skill-three{
+                    width: 42%;
+                    animation: skillthree 2s;
+                    @include skillthreeAnim;
+                }
+                .skill-four{
+                    width: 60%;
+                    animation: skillfour 2s;
+                    @include skillfourAnim;
+                }
+                .skill-five{
+                    width: 20%;
+                    animation: skillfive 2s;
+                    @include skillfiveAnim;
+                }   
+            }
+        }
+    }
+
+    // Skill Section Ends Here
+
     // Contact Section Starts Here
 
     .contacts-container{
