@@ -33,7 +33,7 @@ h6 {
   display: flex;
 }
 
-.container .profile-container .profile-section {
+.container .profile-container .profile-wrapper {
   height: 100vh;
   width: 100%;
   position: relative;
@@ -43,20 +43,20 @@ h6 {
   opacity: 0.9;
 }
 
-.container .profile-container .profile-section header {
+.container .profile-container .profile-wrapper header {
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   padding: 0px 40px;
 }
 
-.container .profile-container .profile-section header img {
+.container .profile-container .profile-wrapper header img {
   height: 80px;
 }
 
-.container .profile-container .profile-section header ul {
+.container .profile-container .profile-wrapper header ul {
   list-style-type: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
@@ -66,21 +66,21 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 
-.container .profile-container .profile-section header ul li {
+.container .profile-container .profile-wrapper header ul li {
   display: inline-block;
   padding-right: 35px;
   cursor: pointer;
 }
 
-.container .profile-container .profile-section header ul li:hover {
+.container .profile-container .profile-wrapper header ul li:hover {
   text-decoration: underline #4e6160 2px;
 }
 
-.container .profile-container .profile-section .profile-contents {
+.container .profile-container .profile-wrapper .profile-contents {
   display: flex;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents {
   width: 55%;
   display: flex;
   flex-direction: column;
@@ -88,14 +88,14 @@ h6 {
   justify-content: center;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents h1 {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents h1 {
   font-size: 4rem;
   font-weight: 800;
   color: #2d2d2d;
   margin-bottom: -10px;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents p {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #4b5d5d;
   font-size: 1.2rem;
@@ -105,21 +105,21 @@ h6 {
   letter-spacing: 1.6px;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents p span {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents p span {
   font-weight: 700;
   color: #2d2d2d;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents .button-set {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents .button-set {
   display: flex;
+  align-items: center;
   max-width: 280px;
   justify-content: space-between;
-  align-items: center;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents .button-set button {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents .button-set button {
   width: 120px;
   height: 40px;
   border-radius: 20px;
@@ -130,12 +130,12 @@ h6 {
   cursor: pointer;
 }
 
-.container .profile-container .profile-section .profile-contents .left-profile-contents .button-set img {
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents .button-set img {
   height: 22px;
   width: 22px;
 }
 
-.container .profile-container .profile-section .profile-contents .right-profile-contents {
+.container .profile-container .profile-wrapper .profile-contents .right-profile-contents {
   margin-top: 40px;
   margin-left: 20px;
   width: 350px;
@@ -145,22 +145,22 @@ h6 {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
-.container .profile-container .profile-section .profile-contents .right-profile-contents img {
+.container .profile-container .profile-wrapper .profile-contents .right-profile-contents img {
   width: 100%;
   object-fit: cover;
   height: 100%;
 }
 
-.container .works-container {
+.container .portfolio-container {
   height: 100vh;
   width: 100%;
   background-color: #2c2c2c;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
-.container .works-container h2 {
+.container .portfolio-container h2 {
   margin: 40px 0px 30px;
   font-size: 2rem;
   letter-spacing: 2px;
@@ -168,7 +168,7 @@ h6 {
   color: #f1f1f1;
 }
 
-.container .works-container .portfolio-container {
+.container .portfolio-container .portfolio-wrapper {
   height: 580px;
   width: 80%;
   display: grid;
@@ -177,7 +177,7 @@ h6 {
   grid-gap: 10px;
 }
 
-.container .works-container .portfolio-container div:nth-child(1) {
+.container .portfolio-container .portfolio-wrapper div:nth-child(1) {
   grid-area: 1 / 1 / 3 / 2;
   background: url(/images/portfolio/art-5.jpg);
   background-size: cover;
@@ -185,7 +185,7 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.container .works-container .portfolio-container div:nth-child(2) {
+.container .portfolio-container .portfolio-wrapper div:nth-child(2) {
   grid-area: 1 / 2 / 2 / 3;
   background: url(/images/portfolio/art-4.jpg);
   background-size: cover;
@@ -193,7 +193,7 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.container .works-container .portfolio-container div:nth-child(3) {
+.container .portfolio-container .portfolio-wrapper div:nth-child(3) {
   grid-area: 1 / 3 / 2 / 5;
   background: url(/images/portfolio/art-2.jpg);
   background-size: cover;
@@ -201,7 +201,7 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.container .works-container .portfolio-container div:nth-child(4) {
+.container .portfolio-container .portfolio-wrapper div:nth-child(4) {
   grid-area: 2 / 2 / 3 / 4;
   background: url(/images/portfolio/art-3.jpg);
   background-size: cover;
@@ -209,7 +209,7 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.container .works-container .portfolio-container div:nth-child(5) {
+.container .portfolio-container .portfolio-wrapper div:nth-child(5) {
   grid-area: 2 / 4 / 3 / 5;
   background: url(/images/portfolio/art-1.jpg);
   background-size: cover;
@@ -222,8 +222,8 @@ h6 {
   width: 100%;
   background-color: #2d2d2d;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
 .container .contacts-container .contact-wrapper {
@@ -245,8 +245,8 @@ h6 {
   height: 100%;
   background-color: #4e6160;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding: 40px;
 }
@@ -270,10 +270,10 @@ h6 {
 
 .container .contacts-container .contact-wrapper .social-links {
   display: flex;
+  align-items: center;
   height: 40px;
   width: 100%;
   justify-content: space-around;
-  align-items: center;
 }
 
 .container .contacts-container .contact-wrapper .social-links .fab {

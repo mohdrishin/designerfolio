@@ -26,8 +26,20 @@
     background-color: $btn-color;
     color: #fff;
 }
+@mixin emailBtn{
+    width: 140px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background-color: $workbg-color;
+    color: $main-color;
+}
 @mixin portfolioBg{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+@mixin flexcenter{
+    display: flex;
+    align-items: center;
 }

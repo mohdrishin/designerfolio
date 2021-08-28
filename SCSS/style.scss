@@ -14,7 +14,7 @@
     // Landing Profile Section Starts Here
     .profile-container{
         display: flex;
-        .profile-section {
+        .profile-wrapper {
             height: 100vh;
             width: 100%;
             position: relative;
@@ -23,9 +23,8 @@
                 height: 100px;
                 width: 100%;
                 // background-color: #FFE3E3;
-                display: flex;
+                @include flexcenter;
                 justify-content: space-around;
-                align-items: center;
                 padding: 0px 40px;
                 img{
                     height: 80px;
@@ -46,17 +45,12 @@
             .profile-contents{
                 display: flex;
                 .left-profile-contents{
-                    // background-color: aqua;
                     width: 55%;
-                    // height: max-content;
                     display: flex;
                     flex-direction: column;
                     padding: 50px 200px 0px;
-                    // padding-left: 200px;
                     justify-content: center;
-                    // align-items: center;
                     h1{
-                        // font-family: $h1-font;
                         font-size: 4rem;
                         font-weight: 800;
                         color: $main-color;
@@ -72,15 +66,13 @@
                         letter-spacing: 1.6px;
                         span{
                             font-weight: 700;
-                            // font-family: $h1-font;
                             color: $main-color;
                         }
                     }
                     .button-set{
-                        display: flex;
+                        @include flexcenter;
                         max-width: 280px;
                         justify-content: space-between;
-                        align-items: center;
                         margin-top: 10px;
                         cursor: pointer;
                         button{
@@ -115,13 +107,12 @@
     // Landing Profile Section Ends Here
 
     // Portfolio Section Starts Here
-    .works-container {
+    .portfolio-container {
         height: 100vh;
         width: 100%;
         background-color: #2c2c2c;
-        display: flex;
+        @include flexcenter;
         flex-direction: column;
-        align-items: center;
         h2{
             margin: 40px 0px 30px;
             font-size: 2rem;
@@ -129,7 +120,7 @@
             font-weight: 600;
             color: $workbg-color;
         }
-        .portfolio-container{
+        .portfolio-wrapper{
             height: 580px;
             width: 80%;
             display: grid;
@@ -164,27 +155,21 @@
         }
     }
     // Portfolio Section Ends Here
+
+    // Contact Section Starts Here
+
     .contacts-container{
         height: 100vh;
         width: 100%;
         background-color: $main-color;
-        display: flex;
+        @include flexcenter;
         flex-direction: column;
-        align-items: center;
-        // h2{
-        //     margin: 40px 0px 55px;
-        //     font-size: 2rem;
-        //     letter-spacing: 2px;
-        //     font-weight: 600;
-        //     color: $workbg-color;
-        // }
         .contact-wrapper{
             margin: auto;
             height: 300px;
             width: 60%;
             background-color: $workbg-color;
-            display: flex;
-            align-items: center;
+            @include flexcenter;
             // justify-content: center;
             .contact-text{
                 width: 50%;
@@ -193,20 +178,14 @@
             .call-to-action{
                 width: 50%;
                 height: 100%;
-                background-color: #4e6160;
-                display: flex;
+                background-color: $thd-color;
+                @include flexcenter;
                 justify-content: center;
-                align-items: center;
                 flex-direction: column;
                 padding: 40px;
             }
             button{
-                width: 140px;
-                height: 40px;
-                border-radius: 2px;
-                border: 1px solid transparent;
-                background-color: $workbg-color;
-                color: $main-color;
+                @include emailBtn;
                 margin-bottom: 40px;
                 &:hover{
                     background-color: $main-color;
@@ -216,26 +195,22 @@
                 }
             }
             .social-links{
-                // margin: 60px 0;
-                display: flex;
+                @include flexcenter;
                 height: 40px;
                 width: 100%;
-                // background-color: turquoise;
                 justify-content: space-around;
-                align-items: center;
                 .fab{
                     color: #fff;
                 }
             }
         }
         footer{
-            color: #4e6160;
+            color: $thd-color;
             font-family: $main-font;
             font-size: 15px;
             font-weight: 500;
             padding-bottom: 35px;
         }
-        
     }
-
+    // Contact Section Ends Here
 }
