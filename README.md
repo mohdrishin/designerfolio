@@ -9,9 +9,9 @@
 * Valid HTML5 & CSS3
 * Custom SCSS
 * Responsive Design: (will fix soon)
-* CSS Grid Portfoilio Section
+* CSS Grid Portfolio Section
 * SEO Optimized (will fix soon) 
 
-### Current Progress (Screenshot)
+### Current Progress
 
-![Screenshot](https://github.com/mohdrishin/designerfolio/blob/master/examples/portfolio-full.png)
+![Screenshot](https://github.com/mohdrishin/designerfolio/blob/master/examples/portfolio-full-example.gif)
