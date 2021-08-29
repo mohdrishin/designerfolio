@@ -474,7 +474,7 @@ h6 {
   }
   .container .profile-container .profile-wrapper .profile-contents .left-profile-contents p {
     color: #e5e5e5;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 300;
     font-size: 1.1rem;
     padding-top: 10px;
@@ -504,7 +504,7 @@ h6 {
     width: 22px;
   }
   .container .profile-container .profile-wrapper .profile-contents .right-profile-contents {
-    margin: 40px auto 30px;
+    margin: 40px auto 20px;
     width: 250px;
     height: 250px;
   }
