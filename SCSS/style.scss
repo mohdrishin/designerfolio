@@ -367,10 +367,11 @@
                                 @include helloButton;
                                 font-size: 13px;
                                 cursor: pointer;
+                                margin-right: 15px;
                             }
-                            img{
-                                height: 22px;
-                                width: 22px;
+                            .fab{
+                                margin-right: 15px;
+                                color:#fff;
                             }
                         }
                     }
@@ -493,10 +494,8 @@
                                 font-size: 11px;
                                 margin-right: 10px;
                             }
-                            img{
-                                margin-right: 10px;
-                                height: 21px;
-                                width: 21px;
+                            .fab{
+                                margin-right: 15px;
                             }
                         }
                     }
