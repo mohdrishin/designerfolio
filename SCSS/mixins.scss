@@ -48,18 +48,13 @@
 // Responsive
 
 @mixin helloButtonTablet{
-    width: 110px;
+    max-width: 110px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid $btn-color;
     background-color: $btn-color;
     color: #fff;
 }
-
-
-
-
-
 
 
 // Animations for Skills
@@ -116,3 +111,40 @@
 }
 
 // Animations for Skills Ends Here
+
+// Mediaqueries
+@mixin small {
+    @media (max-width: #{$small-width}) {
+        @content;
+      }
+}
+
+@mixin mobile {
+    @media (min-width: #{$small-width + 1px}) and (max-width: #{$mobile-width}) {
+        @content;
+      }
+}
+
+@mixin tablet {
+    @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$tablet-width}) {
+      @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: #{$tablet-width + 1px}) and (max-width: #{$laptop-width}) {
+        @content;
+    }
+}  
+
+@mixin desktop {
+    @media (min-width: #{$laptop-width + 1px}) and (max-width: #{$desktop-width}) {
+        @content;
+    }
+}  
+
+@mixin largescreen {
+    @media (min-width: #{$desktop-width + 1px}) {
+        @content;
+    }
+}  

@@ -310,8 +310,12 @@
 
 // Responsive Media Queries
 
-// Tablet Mode Starts Here
-@media screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet){
+
+
+
+
+// Tablet Device Starts Here
+@include tablet {
     .container {
         // Landing Profile Section Starts Here
         .profile-container{
@@ -328,7 +332,7 @@
                 }
                 .profile-contents{
                     .left-profile-contents{
-                        width: 50%;
+                        width: 60%;
                         padding: 70px 50px;
                         h1{
                             font-size: 2.5rem; 
@@ -352,7 +356,7 @@
                                 margin-right: 10px;
                             }
                             img{
-                                margin-right: 5px;
+                                margin-right: 10px;
                                 height: 21px;
                                 width: 21px;
                             }
@@ -381,6 +385,6 @@
                 padding: 40px 0;
             }
         }
-    }      
+    }
 }
 // Tablet Mode Ends Here
