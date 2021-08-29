@@ -83,7 +83,6 @@
                         max-width: 280px;
                         justify-content: space-between;
                         margin-top: 10px;
-                        cursor: pointer;
                         button{
                             @include helloButton;
                             font-size: 13px;
@@ -92,6 +91,7 @@
                         img{
                             height: 22px;
                             width: 22px;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -314,17 +314,9 @@
 @include mobile {
     .container {
         .profile-container{
-            display: flex;
             .profile-wrapper {
-                height: 100vh;
-                width: 100%;
-                position: relative;
                 @include bgImage;
                 header{
-                    height: 100px;
-                    width: 100%;
-                    @include flexcenter;
-                    justify-content: space-around;
                     padding: 0px 10px;
                     img{
                         height: 60px;
@@ -349,8 +341,6 @@
                         padding: 0px 20px;
                         h1{
                             font-size: 2.2rem;
-                            font-weight: 800;
-                            color: $main-color;
                             margin-bottom: 40px;
                             &::after{
                                 height: 6px;
@@ -359,6 +349,7 @@
                         }
                         p{
                             color: $footer-text;
+                            margin-top: 20px;
                             font-weight: 300;
                             font-size: 1.1rem;
                             padding-top: 10px;
@@ -370,11 +361,8 @@
                             }
                         }
                         .button-set{
-                            @include flexcenter;
                             max-width: 280px;
-                            justify-content: space-between;
                             margin-top: 10px;
-                            cursor: pointer;
                             button{
                                 @include helloButton;
                                 font-size: 13px;
