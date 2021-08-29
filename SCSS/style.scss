@@ -537,4 +537,54 @@
         }
     }
 }
-// Tablet Mode Ends Here
+// Tablet Device Ends Here
+
+// Laptop Device Starts Here
+@include laptop{
+    .container {
+        .profile-container{
+            .profile-wrapper {
+                background: url(/images/pexels-bg.jpg) no-repeat;
+                background-size: cover;
+                background-position: 50% 40%;
+                opacity: 0.9;              
+                .profile-contents{
+                    display: flex;
+                    .left-profile-contents{
+                        width: 55%;
+                        padding: 50px 10px 0px 60px;
+                       
+                        h1{
+                            font-size: 3rem;
+                            margin-bottom: 10px;
+                            &::after{
+                                height: 7px;
+                                width: 7px;
+                            }
+                        }
+                        p{
+                            font-size: 1.1rem;
+                            line-height: 1.6rem;
+                            letter-spacing: 1.5px;
+                        }
+                        .button-set{
+                            margin-top: 12px;
+                        }
+                    }
+                    .right-profile-contents{
+                        margin: 40px 20px;
+                        width: 300px;
+                        height: 350px;
+                    }     
+                } 
+            }
+        }
+        .skills-container{
+            .skills-wrapper{
+                width: 60%;
+            }
+        }    
+    }
+}
+
+// Laptop Device Ends Here
