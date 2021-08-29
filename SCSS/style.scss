@@ -588,3 +588,28 @@
 }
 
 // Laptop Device Ends Here
+
+// Desktop Device Starts Here
+@include desktop{
+    .container {
+        .profile-container{
+            .profile-wrapper {
+                background: url(/images/pexels-bg.jpg) no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
+                opacity: 0.9;
+                .profile-contents{
+                    .left-profile-contents{
+                        padding: 50px 100px 0px;                        
+                    }
+                    .right-profile-contents{
+                        width: 320px;
+                        height: 380px;
+                    } 
+    
+                } 
+            }
+        }
+    }
+}
+// Desktop Device Ends Here

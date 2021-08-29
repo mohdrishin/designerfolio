@@ -696,4 +696,20 @@ h6 {
     width: 60%;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .container .profile-container .profile-wrapper {
+    background: url(/images/pexels-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.9;
+  }
+  .container .profile-container .profile-wrapper .profile-contents .left-profile-contents {
+    padding: 50px 100px 0px;
+  }
+  .container .profile-container .profile-wrapper .profile-contents .right-profile-contents {
+    width: 320px;
+    height: 380px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
