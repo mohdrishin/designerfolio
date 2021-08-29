@@ -88,10 +88,9 @@
                             font-size: 13px;
                             cursor: pointer;
                         }
-                        img{
-                            height: 22px;
-                            width: 22px;
-                            cursor: pointer;
+                        .fab{
+                            // margin-right: 15px;
+                            color: #000;
                         }
                     }
                 }
@@ -496,6 +495,7 @@
                             }
                             .fab{
                                 margin-right: 15px;
+                                color: #000;
                             }
                         }
                     }

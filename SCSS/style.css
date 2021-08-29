@@ -138,10 +138,8 @@ h6 {
   cursor: pointer;
 }
 
-.container .profile-container .profile-wrapper .profile-contents .left-profile-contents .button-set img {
-  height: 22px;
-  width: 22px;
-  cursor: pointer;
+.container .profile-container .profile-wrapper .profile-contents .left-profile-contents .button-set .fab {
+  color: #000;
 }
 
 .container .profile-container .profile-wrapper .profile-contents .right-profile-contents {
@@ -622,6 +620,7 @@ h6 {
   }
   .container .profile-container .profile-wrapper .profile-contents .left-profile-contents .button-set .fab {
     margin-right: 15px;
+    color: #000;
   }
   .container .profile-container .profile-wrapper .profile-contents .right-profile-contents {
     margin: 60px 20px;
