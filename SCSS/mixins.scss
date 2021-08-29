@@ -45,6 +45,23 @@
 }
 
 
+// Responsive
+
+@mixin helloButtonTablet{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid $btn-color;
+    background-color: $btn-color;
+    color: #fff;
+}
+
+
+
+
+
+
+
 // Animations for Skills
 
 @mixin skilloneAnim{

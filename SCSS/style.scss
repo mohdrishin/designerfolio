@@ -117,11 +117,12 @@
 
     // Portfolio Section Starts Here
     .portfolio-container {
-        height: 100vh;
+        height: max-content;
         width: 100%;
         background-color: #2c2c2c;
         @include flexcenter;
         flex-direction: column;
+        padding-bottom: 50px;
         h2{
             margin: 40px 0px 30px;
             font-size: 2rem;
@@ -304,3 +305,82 @@
     }
     // Contact Section Ends Here
 }
+
+
+
+// Responsive Media Queries
+
+// Tablet Mode Starts Here
+@media screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet){
+    .container {
+        // Landing Profile Section Starts Here
+        .profile-container{
+            .profile-wrapper {
+                background: url(/images/pexels-bg.jpg) no-repeat;
+                background-size: cover;
+                background-position: 50% 20%;
+                opacity: 0.9;
+                header{
+                    height: 80px;
+                    img{
+                        height: 70px;
+                    }
+                }
+                .profile-contents{
+                    .left-profile-contents{
+                        width: 50%;
+                        padding: 70px 50px;
+                        h1{
+                            font-size: 2.5rem; 
+                            margin-bottom: -10px;
+                            &::after{
+                                height: 5px;
+                                width: 5px;
+                            }
+                        }
+                        p{
+                            font-size: 1rem;
+                            padding: 10px 0px;
+                            letter-spacing: 1.5px;
+                        }
+                        .button-set{
+                            max-width: 250px;
+                            margin-top: 10px;
+                            button{
+                                @include helloButtonTablet;
+                                font-size: 11px;
+                                margin-right: 10px;
+                            }
+                            img{
+                                margin-right: 5px;
+                                height: 21px;
+                                width: 21px;
+                            }
+                        }
+                    }
+                    .right-profile-contents{
+                        margin: 60px 20px;
+                        width: 300px;
+                        height: 350px;
+                    } 
+    
+                } 
+            }
+        }
+        .portfolio-container {
+            .portfolio-wrapper{
+                width: 90%;
+            }
+        }
+        .skills-container{
+            h2{
+                margin: 60px auto;
+            }
+            .skills-wrapper{
+                width: 70%;
+                padding: 40px 0;
+            }
+        }
+    }      
+}
+// Tablet Mode Ends Here
