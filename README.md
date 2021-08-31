@@ -13,6 +13,24 @@
 * Custom Animations
 * SEO Optimized 
 
-### Current Progress
+### Full View
 
-![Screenshot](https://github.com/mohdrishin/designerfolio/blob/master/examples/portfolio-full-example.gif)
+![Fullview GIF](https://github.com/mohdrishin/designerfolio/blob/master/examples/portfolio-full-example.gif)
+
+### Screenshots
+
+*1. About Section*
+
+![about-designerfolio](https://github.com/mohdrishin/designerfolio/blob/master/examples/landing-about.png)
+
+*2. Portfolio Section*
+
+![portfolio-designerfolio](https://github.com/mohdrishin/designerfolio/blob/master/examples/portfolio-section.png)
+
+*3. Skills Section*
+
+![skills-designerfolio](https://github.com/mohdrishin/designerfolio/blob/master/examples/skills-section.png)
+
+*4. Contact Section*
+
+![contact-designerfolio](https://github.com/mohdrishin/designerfolio/blob/master/examples/contact-section.png)
