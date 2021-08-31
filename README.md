@@ -11,7 +11,7 @@
 * Responsive Design
 * CSS Grid Portfolio Section
 * Custom Animations
-* SEO Optimized (will fix soon) 
+* SEO Optimized 
 
 ### Current Progress
 
