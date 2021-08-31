@@ -10,6 +10,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 .container {
     // Landing Profile Section Starts Here
     .profile-container{

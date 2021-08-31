@@ -29,6 +29,10 @@ h6 {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container .profile-container {
   display: flex;
 }
