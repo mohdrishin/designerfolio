@@ -8,7 +8,7 @@
 * Single Page Layout
 * Valid HTML5 & CSS3
 * Custom SCSS
-* Responsive Design: (will fix soon)
+* Responsive Design
 * CSS Grid Portfolio Section
 * Custom Animations
 * SEO Optimized (will fix soon) 
