@@ -1,7 +1,5 @@
 # designerfolio - ⚡️ Simple Portfolio website for Designers
 
-**Status: Not Completed** 
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/25f9f5d9-0b32-4f5e-8b2b-0890bd804bbf/deploy-status)](https://app.netlify.com/sites/designerfolio/deploys)
 
 ## Features
